@@ -18,6 +18,6 @@ for i in range(interval_start, interval_end + 1):
                     is_special = False
 
                 if is_special:
-                    print(f'{i}{j}{k}{l}', end=' ')
                 sum_second_third_digit = 0
+                    print(f'{i}{j}{k}{l}', end=' ')
                 is_special = False
